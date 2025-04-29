@@ -79,15 +79,15 @@ pose.onResults((results) => {
   const shoulderWidth = Math.abs(rightX - leftX);
 
   //hat
-  const hatWidth = shoulderWidth * 1.4;  //width and height slider
+  const hatWidth = shoulderWidth * 1.6;  //width and height slider
   const hatHeight = hatWidth;  //height slider if needed
   const hatX = noseX - hatWidth / 2 - 2;  //left and right
-  const hatY = noseY - hatHeight * 0.72;  //up and down
+  const hatY = noseY - hatHeight * 0.7;  //up and down
 
   canvasCtx.drawImage(hatImg, hatX, hatY, hatWidth, hatHeight);
 
   //vest
-  const vestWidth = shoulderWidth * 2;  //width slider
+  const vestWidth = shoulderWidth * 2.1;  //width slider
   const vestHeight = vestWidth * 0.8;  //height slider
   const vestX = (leftX + rightX) / 2 - vestWidth / 2;  //left and right
   const vestY = leftY - vestHeight * 0.22;  //up and down
