@@ -82,7 +82,7 @@ pose.onResults((results) => {
   const hatWidth = shoulderWidth * 1.6;  //width and height slider
   const hatHeight = hatWidth;  //height slider if needed
   const hatX = noseX - hatWidth / 2 - 2;  //left and right
-  const hatY = noseY - hatHeight * 0.7;  //up and down
+  const hatY = noseY - hatHeight * 0.68;  //up and down
 
   canvasCtx.drawImage(hatImg, hatX, hatY, hatWidth, hatHeight);
 
