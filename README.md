@@ -3,14 +3,14 @@ Volunteer AR Filter Outfit Project for USACE
 A real-time AR project that overlays a volunteer shirt and hat onto a person using their webcam.
 
 Built with:
-- MediaPipe Pose for body tracking
+- MediaPipe Pose for real-time body tracking
 - JavaScript, HTML, and CSS
 - Hosted using GitHub Pages
 
 How It Works
 
-- Captures the webcam feed
-- Detects body landmarks (nose and shoulders)
+- Captures the user's live webcam feed
+- Detects body landmarks (nose and shoulders) using MediaPipe Pose
 - Draws a volunteer hat and shirt overlay based on the body's position
 
 How to Use
